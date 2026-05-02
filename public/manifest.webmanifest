@@ -1,0 +1,17 @@
+{
+  "name": "Back on Track Physio",
+  "short_name": "BackOnTrack",
+  "description": "Physiotherapy Data Management System",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#009ba3",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

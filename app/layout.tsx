@@ -9,6 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Back on Track Physio",
   description: "Back on Track Physiotherapy Data Management System",
+  manifest: "/manifest.webmanifest",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
@@ -19,9 +20,9 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  maximumScale: 5,
-  userScalable: true,
-  themeColor: "#ffffff",
+  maximumScale: 1,
+  userScalable: false,
+  themeColor: "#009ba3",
 };
 
 
