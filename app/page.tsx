@@ -49,11 +49,17 @@ export default async function Home() {
       </div>
       
       {error && (
-        <div className="bg-destructive/10 border border-destructive/20 text-destructive px-4 py-3 rounded-lg flex items-center gap-3 mb-6">
-          <div className="h-2 w-2 rounded-full bg-destructive animate-pulse" />
-          <p className="text-sm font-medium">
-            <span className="font-bold">Sync Error:</span> {error}. Please verify your deployment settings or try refreshing.
+        <div className="bg-destructive/10 border border-destructive/20 text-destructive px-4 py-4 rounded-lg flex flex-col gap-2 mb-6 animate-in fade-in zoom-in duration-300">
+          <div className="flex items-center gap-3">
+            <div className="h-2 w-2 rounded-full bg-destructive animate-pulse" />
+            <p className="text-sm font-bold">Connection Sync Error</p>
+          </div>
+          <p className="text-xs opacity-90 pl-5">
+            Details: {error}
           </p>
+          <div className="mt-2 text-[10px] bg-white/50 p-2 rounded border border-destructive/10 font-mono">
+            Debug: APPS_SCRIPT_URL is {process.env.GOOGLE_APPS_SCRIPT_URL ? "CONFIGURED (Correct)" : "MISSING (Check Vercel Settings)"}
+          </div>
         </div>
       )}
 
