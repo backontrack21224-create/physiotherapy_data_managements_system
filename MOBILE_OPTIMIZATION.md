@@ -2,7 +2,7 @@
 
 ## ✅ Mobile Features Implemented
 
-Your PhysioTrack application is now fully optimized for mobile devices!
+Your Back on Track application is now fully optimized for mobile devices!
 
 ### 🎯 Key Mobile Optimizations:
 
@@ -177,7 +177,7 @@ Your app is optimized for:
 
 ## 🎉 Result:
 
-Your PhysioTrack app now provides a **native app-like experience** on mobile devices!
+Your Back on Track app now provides a **native app-like experience** on mobile devices!
 
 - Fast and responsive
 - Easy to use with one hand

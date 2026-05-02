@@ -1,8 +1,8 @@
 # 🔄 Data Synchronization Guide
 
-## How PhysioTrack Syncs with Google Sheets
+## How Back on Track Syncs with Google Sheets
 
-Your PhysioTrack application is configured to **always show the latest data** from your Google Sheet, even if you manually edit the sheet.
+Your Back on Track application is configured to **always show the latest data** from your Google Sheet, even if you manually edit the sheet.
 
 ### ✅ What's Configured:
 

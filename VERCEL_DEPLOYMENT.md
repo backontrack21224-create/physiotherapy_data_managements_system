@@ -1,4 +1,4 @@
-# 🚀 Deploy PhysioTrack to Vercel
+# 🚀 Deploy Back on Track to Vercel
 
 ## ✅ GitHub Repository Created!
 
@@ -154,7 +154,7 @@ Vercel will automatically deploy the changes!
 
 ## 🎨 Custom Domain (Optional)
 
-Want to use your own domain like `physiotrack.prasadclinic.com`?
+Want to use your own domain like `Back on Track.prasadclinic.com`?
 
 1. Go to Vercel Dashboard
 2. Click your project
@@ -213,7 +213,7 @@ If you encounter issues:
 
 ---
 
-**Your PhysioTrack is ready for the world!** 🚀🌍
+**Your Back on Track is ready for the world!** 🚀🌍
 
 Deploy URL: https://vercel.com/new
 GitHub Repo: https://github.com/Rakesh-ai-ds/Prasad_physio_database

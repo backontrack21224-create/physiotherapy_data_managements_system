@@ -14,7 +14,7 @@ You need to **update your Google Apps Script** with the new code that includes t
 
 ### Step 1: Open Google Apps Script
 
-1. Open your **PhysioTrack Google Sheet**
+1. Open your **Back on Track Google Sheet**
 2. Click **Extensions** → **Apps Script**
 3. You should see the Apps Script editor
 

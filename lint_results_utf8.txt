@@ -1,4 +1,4 @@
-﻿
+
 > physio_sw@0.1.0 lint
 > eslint
 
@@ -1998,5 +1998,5 @@ C:\Users\RAKESH\Desktop\p_j_req\scripts\google-apps-script.js
    33:10  warning  'doPost' is defined but never used               @typescript-eslint/no-unused-vars
   104:10  warning  'migrateClinicalData' is defined but never used  @typescript-eslint/no-unused-vars
 
-Γ£û 125 problems (75 errors, 50 warnings)
+G�� 125 problems (75 errors, 50 warnings)
 

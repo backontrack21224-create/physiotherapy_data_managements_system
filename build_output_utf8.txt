@@ -1,4 +1,4 @@
-﻿
+
 > physio_sw@0.1.0 build
 > next build
 
@@ -27,7 +27,7 @@ oteException
    rorId : NativeComm  
   andError
  
-   Γû▓ Next.js 16.0.7 (Turbopack)
+   G�� Next.js 16.0.7 (Turbopack)
    - Environments: .env
 
    Creating an optimized production build ...
