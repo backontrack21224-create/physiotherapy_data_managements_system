@@ -13,13 +13,13 @@ export default async function Home() {
   
   try {
     const data = await getFromGoogleSheet();
-    // Sanity filter: remove null, undefined, arrays, or non-object rows
     assessments = Array.isArray(data)
-      ? data.filter((a: any) => a && typeof a === 'object' && !Array.isArray(a) && a.PatientName)
+      ? data.filter((a: any) => a && typeof a === 'object' && !Array.isArray(a) && (a.PatientName || a['Patient Name']))
       : [];
   } catch (err) {
     console.error("Failed to fetch assessments:", err);
-    error = err instanceof Error ? err.message : "Could not connect to Google Sheets";
+    error = "Could not connect to Google Sheets. Please ensure your GOOGLE_APPS_SCRIPT_URL is correct in Vercel settings.";
+    assessments = [];
   }
 
   return (
